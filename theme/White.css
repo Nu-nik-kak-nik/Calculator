@@ -1,0 +1,80 @@
+QWidget {
+  color: white;
+  background-color: white;
+  font-family: Roboto Mono;
+  font-size: 18pt;
+  font-weight: 400;
+}
+
+QLineEdit{
+color: black;
+  border-radius: 5px;
+  font-size: 30pt;
+  border: none;
+}
+
+QLabel{
+color: #888;
+font-size: 14pt;
+font-weight: 600;
+    border: none;
+}
+
+/* задаем стиль для кнопок калькулятора */
+QPushButton {
+background-color: #232227;
+color: white;
+border-radius: 5px;
+font-size: 14pt;
+font-weight: 500;
+}
+
+/* задаем эффект мерцания для кнопок */
+@keyframes blink {
+0% { background-color: #ff0000; } /* начальный цвет */
+20% { background-color: #1560bd; }
+40% { background-color: #00FF00; }
+50% { background-color: #FFFF00; } /* меняем цвет на половине времени */
+70% { background-color: #FF00FF; }
+80% { background-color: #008080; }
+100% { background-color:#ADFF2F; } /*  конечный цвет */
+}
+
+/* Стиль кнопки при нажатии */
+QPushButton:pressed {
+animation: blink 0.5s linear;
+}
+
+QPushButton:hover{
+  background-color: #323234;
+}
+
+#Bttn_rowno{
+background-color: #9184e0;
+color: black;
+border: none;
+font-size: 18pt;
+ font-weight: 500;
+}
+
+#Bttn_rowno:hover{
+  background-color: #7567c9;
+}
+#Bttn_rowno:pressed {
+  background-color:  #333235;
+}
+
+#Bttn_color{
+	background-color: #9184e0;
+	color: black;
+	border: none;
+	font-size: 18pt;
+   font-weight: 500;
+}
+
+#Bttn_color:hover{
+    background-color: #5a49af;
+}
+#Bttn_color:pressed {
+    background-color:  #333235;
+}

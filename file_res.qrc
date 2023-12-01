@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="Icons">
+    <file>1onX.png</file>
+    <file>basket.png</file>
+    <file>cist-Fiol.png</file>
+    <file>light.png</file>
+    <file>right.png</file>
+    <file>Bckspc.png</file>
+    <file>Calcul-icon.png</file>
+  </qresource>
+</RCC>
