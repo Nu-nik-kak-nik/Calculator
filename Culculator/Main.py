@@ -198,7 +198,6 @@ class Calculator(QMainWindow):
                         self.adjust_temp_font_size()
                 else:
                     self.ui.Story.setText(self.remove_exponential(self.calcul()) + f' {math_sign} ')
-                    print('HI')
                     self.adjust_temp_font_size()
         except TypeError:
             pass
@@ -358,7 +357,6 @@ class Calculator(QMainWindow):
         except ZeroDivisionError:
             self.error_with_zero()
         except InvalidOperation:
-            print('Hi')
             self.error_with_zero()
 
     def one_div_x(self):
