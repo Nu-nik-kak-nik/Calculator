@@ -483,9 +483,9 @@ class Calculator(QMainWindow):
         global theme
         theme = not theme
         if theme:
-            f = open('Dark.css', 'r')
+            f = open('ui/theme/Dark.css', 'r')
         else:
-            f = open('White.css', 'r')
+            f = open('ui/theme/White.css', 'r')
         style = f.read()
         f.close()
         self.setStyleSheet(style)
